@@ -34,7 +34,9 @@ I try to design the system myself before letting any AI component touch it — p
 
 ### Experiments
 
-- **[The Mobile Fortress](https://github.com/KhangChau12/The-Mobile-Fortress)** — a tower-defense/escort hybrid used as a sandbox to test "autopilot" agentic workflows: letting Claude Code run long, unsupervised loops (pick task → implement → self-review → commit → repeat) instead of turn-by-turn prompting. The game itself is the stress test, not the point — it's a clean-slate rewrite of an earlier prototype, **[The Apolycase](https://github.com/KhangChau12/The-Apolycase)**, which had some rough edges in both setup and gameplay balance that this version is meant to fix. TypeScript · Vite · Phaser 3 · React
+- **[Can AI Cook a Library?](https://github.com/KhangChau12/can-ai-cook-a-library)** ([live](https://khangchau12.github.io/can-ai-cook-a-library/)) — an AI/ML learning library written almost entirely by Claude Code running unsupervised: the agent picks its own topics, fetches academic sources, writes lessons and quizzes, and keeps the curriculum growing across sessions without human review before publish.
+
+- **[The Mobile Fortress](https://github.com/KhangChau12/The-Mobile-Fortress)** — a tower-defense game used as a stress test for the same autopilot loop, chosen for its enough moving parts (design, balance, levels) to be a meaningful test. Clean-slate rewrite of **[The Apolycase](https://github.com/KhangChau12/The-Apolycase)**, an earlier prototype with rough edges in both setup and gameplay. TypeScript · Vite · Phaser 3 · React
 
 ### Lead
 
